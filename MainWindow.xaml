@@ -1,0 +1,15 @@
+﻿<Window x:Class="wpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Main" Height="350" Width="525">
+    <Grid>
+        <StackPanel Orientation="Vertical" Margin="5,0,10,10">
+            <TextBlock Text="String to communicate"/>
+            <TextBox Name="txtCom" Height="50" Margin="5,0,0,5" FontSize="14"/>
+            <Button Height="40" Margin="100,100,100,5"
+                Click="Buttonclick1"
+                Content="Communicate to serial"/>
+            
+        </StackPanel>
+    </Grid>
+</Window>    
